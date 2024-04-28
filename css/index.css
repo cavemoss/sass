@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: 400;
+  color: rgb(23, 23, 23);
+}
+
+button {
+  background-color: rgb(54, 73, 241);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 0 0 3px rgba(54, 73, 241, 0.2);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0 10px;
+}
+.nav-bar .nav-bar-options {
+  display: flex;
+  gap: 10px;
+}
+.nav-bar .nav-bar-options a {
+  color: grey;
+  text-decoration: none;
+}
+.nav-bar .nav-bar-options a:hover {
+  color: rgb(23, 23, 23);
+  cursor: pointer;
+}
+.nav-bar .nav-bar-options .active {
+  color: rgb(23, 23, 23);
+}
+.nav-bar .toggle-btn {
+  margin-left: auto;
+}
+
+.dark {
+  background-color: rgb(23, 23, 23);
+}
+.dark h2 {
+  color: white;
+}
+.dark .nav-bar-options a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+}
+.dark .nav-bar-options a:hover {
+  color: white;
+  cursor: pointer;
+}
+.dark .nav-bar-options .active {
+  color: white;
+}
+
+#content {
+  padding-left: 100px;
+}
