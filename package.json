@@ -1,14 +1,9 @@
 {
   "name": "sass",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.1.0",
   "scripts": {
     "dev": "npx gulp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.0",
     "gulp-sass": "^5.1.0",
