@@ -2,6 +2,6 @@
 
 `npm install` Install dependencies
 
-`npm run dev` Run compiler
+`npm run dev` Run SASS compiler
 
-> All .scss files in `src/` will be getting converted to .css and output in `css/`
+> All .scss files in `src/` will be getting converted into .css and output in `css/` in runtime
